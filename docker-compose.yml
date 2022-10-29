@@ -25,7 +25,7 @@ services:
     environment:
       - NODE_ENV=development
       - PORT=3001
-      - REACT_APP_BACKEND_URL=${CODESPACE_BACKEND_URL:-http://localhost:3000}
+      - REACT_APP_BACKEND_URL=${CODESPACE_BACKEND_URL:-https://elico123-humble-meme-q7jx6wjqr6p2j6r-3000.preview.app.github.dev}
       - WDS_SOCKET_PORT=${CODESPACE_WDS_SOCKET_PORT:-3001}
     working_dir: /usr/src
     volumes:
